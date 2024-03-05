@@ -7,7 +7,6 @@ WORKDIR /app
 # 复制项目文件到工作目录
 COPY . .
 
-RUN npm run lint -- --fix
 # 安装项目依赖
 RUN npm install
 
